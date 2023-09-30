@@ -36,7 +36,7 @@
 
 ## Windows
 
-[img_to_vhd]("https://github.com/ercan1104/usual-commands/blob/main/Windows/img_to_vhd.bat") \- convert raw (img) disk image to vhd
+[img_to_vhd](https://github.com/ercan1104/usual-commands/blob/main/Windows/img_to_vhd.bat) \- convert raw (img) disk image to vhd
 
 [mac](https://github.com/ercan1104/usual-commands/blob/main/Windows/mac.bat) \- setting up CPU in VirtualBox to run MacOS
 
