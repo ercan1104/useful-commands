@@ -18,7 +18,7 @@
 
 [qemu](https://github.com/ercan1104/usual-commands/blob/main/Linux/qemu.sh) \- script to start QEMU with ability to ssh in
 
-[redstaros](https://github.com/ercan1104/usual-commands/blob/main/Linux/redstaros.md)
+[redstaros](https://github.com/ercan1104/usual-commands/blob/main/Linux/redstaros.md) - notes about RedStarOS
 
 [recent_files_gnome](https://github.com/ercan1104/usual-commands/blob/main/Linux/recent_files_gnome.sh) \- set numbers of recent files in GNOME to 0
 
