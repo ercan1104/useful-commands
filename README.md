@@ -18,6 +18,8 @@
 
 [qemu](https://github.com/ercan1104/usual-commands/blob/main/Linux/qemu.sh) \- script to start QEMU with ability to ssh in
 
+[redstaros](https://github.com/ercan1104/usual-commands/blob/main/Linux/redstaros.md)
+
 [recent_files_gnome](https://github.com/ercan1104/usual-commands/blob/main/Linux/recent_files_gnome.sh) \- set numbers of recent files in GNOME to 0
 
 [rw_hfs+_filesystem](https://github.com/ercan1104/usual-commands/blob/main/Linux/rw_hfs+_filesystem.sh) \- mount HFS+ disk with read-write permissions
