@@ -36,15 +36,15 @@
 
 [create_image](https://github.com/ercan1104/usual-commands/blob/main/Programs/create_image.sh) \- [create dynamic disk image In `qemu-img`](https://askubuntu.com/a/1298309)
 
-[custom_resolution_vbox](https://github.com/ercan1104/usual-commands/blob/main/Prgrams/custom_resolution_vbox.sh) \- [set resolution to 1080p if you have installed VirtualBox Guest Additions](https://superuser.com/a/120111)
+[custom_resolution_vbox](https://github.com/ercan1104/usual-commands/blob/main/Programs/custom_resolution_vbox.sh) \- [set resolution to 1080p if you have installed VirtualBox Guest Additions](https://superuser.com/a/120111)
 
-[img_to_vhd](https://github.com/ercan1104/usual-commands/blob/main/Programs/img_to_vhd.bat) \- convert raw (img) disk image to vhd
+[img_to_vhd](https://github.com/ercan1104/usual-commands/blob/main/Programs/img_to_vhd.md) \- convert raw (img) disk image to vhd
 
-[mac](https://github.com/ercan1104/usual-commands/blob/main/Programs/mac.bat) \- [setting up CPU in VirtualBox to run MacOS](https://www.youtube.com/watch?v=Nod7cpxzxLc)
+[mac](https://github.com/ercan1104/usual-commands/blob/main/Programs/mac.sh) \- [setting up CPU in VirtualBox to run MacOS](https://www.youtube.com/watch?v=Nod7cpxzxLc)
 
 [qemu](https://github.com/ercan1104/usual-commands/blob/main/Programs/qemu.sh) \- script to start QEMU with ability to ssh in
 
-[remove_api_google_message](https://github.com/ercan1104/usual-commands/blob/main/Programs/remove_api_google_message) \- [Google API Keys Missing Warning Message when using Chromium Portable](https://stackoverflow.com/a/24274934)
+[remove_api_google_message](https://github.com/ercan1104/usual-commands/blob/main/Programs/remove_api_google_message.sh) \- [Google API Keys Missing Warning Message when using Chromium Portable](https://stackoverflow.com/a/24274934)
 
 ## Windows
 
