@@ -1,0 +1,1 @@
+fsutil sparse setflag disk.vhdx 0
