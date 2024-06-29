@@ -48,6 +48,8 @@
 
 ## Windows
 
+[context_menu](https://github.com/ercan1104/usual-commands/blob/main/Windows/context_menu.reg) \- bringing classic context menu in Windows 11
+
 [ui_office365](https://github.com/ercan1104/usual-commands/blob/main/Windows/ui_office365.reg) \- bringing new UI to Office 2021
 
 [vhdx](https://github.com/ercan1104/usual-commands/blob/main/Windows/vhdx.bat) \- [solve `The requested operation could not be completed due to a virtual disk system limitation.  Virtual hard disk files must be uncompressed and unencrypted and must not be sparse. (0xC03A001A).`](https://forums.urbackup.org/t/restoring-vhdx-hyper-v/4038)
