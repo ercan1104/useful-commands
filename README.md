@@ -44,7 +44,7 @@
 
 [qemu](https://github.com/ercan1104/usual-commands/blob/main/Programs/qemu.sh) \- script to start QEMU with ability to ssh in
 
-[remove_api_google_message](https://github.com/ercan1104/usual-commands/blob/main/Programs/remove_api_google_message.sh) \- [Google API Keys Missing Warning Message when using Chromium Portable](https://stackoverflow.com/a/24274934)
+[remove_api_google_message](https://github.com/ercan1104/usual-commands/blob/main/Programs/remove_api_google_message.md) \- [Google API Keys Missing Warning Message when using Chromium Portable](https://stackoverflow.com/a/24274934)
 
 ## Windows
 
