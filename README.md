@@ -2,6 +2,8 @@
 
 ## Linux
 
+[apt](https://github.com/ercan1104/usual-commands/blob/main/Linux/apt.sh) \- change old mirror in older Ubuntu to working mirror
+
 [change_shell](https://github.com/ercan1104/usual-commands/blob/main/Linux/change_shell.sh) \- `zsh` as default shell
 
 [custom_resolution](https://github.com/ercan1104/usual-commands/blob/main/Linux/custom_resolution.sh) \- [set resolution to 1080p if you don't have it on display settings or in `xrandr`](https://askubuntu.com/a/377944)
@@ -12,11 +14,13 @@
 
 [libgmp.so.3](https://github.com/ercan1104/usual-commands/blob/main/Linux/libgmp.so.3.sh) \- [removing error related with `/var/lib/libgmp.so.3`](https://askubuntu.com/a/1460874)
 
-[minimal_linux_build](https://github.com/ercan1104/usual-commands/blob/main/Linux/minimal_linux_build.md) \- creating minimal floppy linux image (format img)
+[minimal_linux_build](https://github.com/ercan1104/usual-commands/blob/main/Linux/minimal_linux_build.md) \- [creating minimal floppy linux image (format img)](https://www.insentricity.com/a.cl/283)
+
+[pacman](https://github.com/ercan1104/usual-commands/blob/main/Linux/pacman.md) \- [disable signature checking in Arch Linux 32](https://wiki.archlinux.org/title/Pacman/Package_signing#Disabling_signature_checking)
 
 [recent_files_gnome](https://github.com/ercan1104/usual-commands/blob/main/Linux/recent_files_gnome.sh) \- [set numbers of recent files in GNOME to 0](https://askubuntu.com/a/1118623)
 
-[redstaros](https://github.com/ercan1104/usual-commands/blob/main/Linux/redstaros.md) - notes about RedStarOS
+[redstaros](https://github.com/ercan1104/usual-commands/blob/main/Linux/redstaros.md) - notes about RedStarOS [1](https://richardg867.wordpress.com/2015/01/01/notes-on-red-star-os-3-0/), [2](https://richardg867.wordpress.com/2020/03/31/more-notes-on-red-star-os-3-0/)
 
 [rw_hfs+_filesystem](https://github.com/ercan1104/usual-commands/blob/main/Linux/rw_hfs+_filesystem.sh) \- [mount HFS+ disk with read-write permissions](https://askubuntu.com/a/332317)
 
