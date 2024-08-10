@@ -42,6 +42,8 @@
 
 [custom_resolution_vbox](https://github.com/ercan1104/usual-commands/blob/main/Programs/custom_resolution_vbox.sh) \- [set resolution to 1080p if you have installed VirtualBox Guest Additions](https://superuser.com/a/120111)
 
+[firefox_ui_scale](https://github.com/ercan1104/usual-commands/blob/main/Programs/firefox_ui_scale.md) \- [Change UI scale in Firefox](https://www.reddit.com/r/firefox/comments/7wnf7y/comment/du1q888)
+
 [img_to_vhd](https://github.com/ercan1104/usual-commands/blob/main/Programs/img_to_vhd.md) \- convert raw (img) disk image to vhd
 
 [mac](https://github.com/ercan1104/usual-commands/blob/main/Programs/mac.sh) \- [setting up CPU in VirtualBox to run MacOS](https://www.youtube.com/watch?v=Nod7cpxzxLc)
@@ -52,7 +54,9 @@
 
 ## Windows
 
-[context_menu](https://github.com/ercan1104/usual-commands/blob/main/Windows/context_menu.reg) \- bringing classic context menu in Windows 11
+[context_menu](https://github.com/ercan1104/usual-commands/blob/main/Windows/context_menu.reg) \- bringing classic context menu to Windows 11
+
+[f1_key_action](https://github.com/ercan1104/usual-commands/blob/main/Windows/f1_key_action.md) \- [disable F1 button for Help and Support](https://answers.microsoft.com/en-us/windows/forum/all/how-to-disable-or-remove-hotkey-f1-for-help-and/3533c72a-9378-4a06-9711-ae8c2d1bfe4f)
 
 [ui_office365](https://github.com/ercan1104/usual-commands/blob/main/Windows/ui_office365.reg) \- bringing new UI to Office 2021
 
