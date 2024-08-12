@@ -18,6 +18,8 @@
 
 [pacman](https://github.com/ercan1104/usual-commands/blob/main/Linux/pacman.md) \- [disable signature checking in Arch Linux 32](https://wiki.archlinux.org/title/Pacman/Package_signing#Disabling_signature_checking)
 
+[path](https://github.com/ercan1104/usual-commands/blob/main/Linux/path.sh) \- [set variable PATH](https://opensource.com/article/17/6/set-path-linux)
+
 [recent_files_gnome](https://github.com/ercan1104/usual-commands/blob/main/Linux/recent_files_gnome.sh) \- [set numbers of recent files in GNOME to 0](https://askubuntu.com/a/1118623)
 
 [redstaros](https://github.com/ercan1104/usual-commands/blob/main/Linux/redstaros.md) - notes about RedStarOS [1](https://richardg867.wordpress.com/2015/01/01/notes-on-red-star-os-3-0/), [2](https://richardg867.wordpress.com/2020/03/31/more-notes-on-red-star-os-3-0/)
