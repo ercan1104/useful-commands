@@ -8,6 +8,8 @@
 
 [custom_resolution](https://github.com/ercan1104/usual-commands/blob/main/Linux/custom_resolution.sh) \- [set resolution to 1080p if you don't have it on display settings or in `xrandr`](https://askubuntu.com/a/377944)
 
+[git_ssl](https://github.com/ercan1104/usual-commands/blob/main/Linux/git_ssl.sh) \- [solve `fatal: unable to access 'https://github.com/user/repo': SSL certificate problem: certificate is not yet valid`](https://stackoverflow.com/questions/3777075/ssl-certificate-rejected-trying-to-access-github-over-https-behind-firewall)
+
 [gnome_weather](https://github.com/ercan1104/usual-commands/blob/main/Linux/gnome_weather.sh) \- [set °С on GNOME Weather widget instead of °F](https://gitlab.gnome.org/GNOME/gnome-weather/-/issues/229#workaround)
 
 [internet](https://github.com/ercan1104/usual-commands/blob/main/Linux/internet.sh) \- connect to internet in linux
