@@ -4,6 +4,8 @@
 
 [apt](Linux/apt.sh) \- change old mirror in older Ubuntu to working mirror
 
+[byedpi_linux] \- ByeDPI on Linux
+
 [change_shell](Linux/change_shell.sh) \- `zsh` as default shell
 
 [custom_resolution](Linux/custom_resolution.sh) \- [set resolution to 1080p if you don't have it on display settings or in `xrandr`](https://askubuntu.com/a/377944)
