@@ -54,6 +54,8 @@
 
 [mac](Programs/mac.sh) \- [setting up CPU in VirtualBox to run MacOS](https://www.youtube.com/watch?v=Nod7cpxzxLc)
 
+[ngrok_error](Programs/ngrok_error.sh) \- [solve `dial tcp: lookup localhost on [::1]:53: no such host`](https://github.com/inconshreveable/ngrok/issues/484#issuecomment-370768301)
+
 [qemu](Programs/qemu.sh) \- script to start QEMU with ability to ssh in
 
 [remove_api_google_message](Programs/remove_api_google_message.md) \- [Google API Keys Missing Warning Message when using Chromium Portable](https://stackoverflow.com/a/24274934)
