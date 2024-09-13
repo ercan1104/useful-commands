@@ -4,7 +4,7 @@
 
 [apt](Linux/apt.sh) \- change old mirror in older Ubuntu to working mirror
 
-[byedpi_linux] \- ByeDPI on Linux
+[byedpi_linux](Linux/byedpi_linux.md) \- ByeDPI on Linux
 
 [change_shell](Linux/change_shell.sh) \- `zsh` as default shell
 
