@@ -60,6 +60,8 @@
 
 [remove_api_google_message](Programs/remove_api_google_message.md) \- [Google API Keys Missing Warning Message when using Chromium Portable](https://stackoverflow.com/a/24274934)
 
+[repaint_icon.py](Programs/repaint_icon.py) \- Repaint icon
+
 ## Windows
 
 [context_menu](Windows/context_menu.reg) \- bringing classic context menu to Windows 11
