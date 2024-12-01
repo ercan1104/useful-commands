@@ -1,12 +1,15 @@
 # Notes on Red Star OS 3.0
-Taken from https://richardg867.wordpress.com/2015/01/01/notes-on-red-star-os-3-0/ and https://richardg867.wordpress.com/2020/03/31/more-notes-on-red-star-os-3-0/
+
+Taken from <https://richardg867.wordpress.com/2015/01/01/notes-on-red-star-os-3-0/> and <https://richardg867.wordpress.com/2020/03/31/more-notes-on-red-star-os-3-0/>
 
 ## Part 1
+
 The latest version of North Korea’s custom Linux distribution, Red Star OS – that one with the Mac OS X style interface – has [leaked onto the internet](http://pastebin.com/cHAzyTE7). While [the individual who talked about technology in North Korea at the 31C3 conference](http://media.ccc.de/browse/congress/2014/31c3_-_6253_-_en_-_saal_2_-_201412292115_-_computer_science_in_the_dprk_-_will_scott.html) claimed he didn’t see anybody using Red Star seriously, it’s still an interesting distribution to check out.
 
 ![image!](images/image.png)
 
 ### Installation
+
 The Korean installer is quite easy to go through blind. All you need to watch out for is the network configuration, which is not set to DHCP by default. Some extras, including compilers and a LAMP stack, are available through the Customize screen. The installer – a customized version of Fedora’s Anaconda – can be started in English by two different methods:
 
 **Method 1:** As soon as your machine starts booting from the Red Star installation media – for example, right after pressing Enter on the BIOS boot menu – keep pressing Esc repeatedly for a few seconds. You’ll be stuck on a screen with nothing but a blinking cursor. Type the following command line (which won’t appear on the screen) and press Enter: `linux lang=en`
@@ -18,6 +21,7 @@ Some minor parts of the UI remain untranslated as they are static images. The in
 ![image1!](images/image1.png)
 
 ### Obtaining root access
+
 Just like OS X, the root user is disabled by default and the system provides an utility to enable it, however getting to said utility through the Korean user interface is a challenge. Luckily, it can be executed from a terminal, which is relatively easy to get to:
 
 1. Click the Applications folder on the dock
@@ -38,16 +42,19 @@ Check the checkbox. You’ll be prompted to enter and confirm a password for the
 My old rootsh RPM – which takes advantage of the unprivileged package installer – is still available [here](https://mega.nz/#!jgBT0RxZ!LQDEBBrbGxE6fag4d_A2C2cWj2PSNR_ZvnSW_UjRD5E) for reference.
 
 ### English
+
 Like the installer, the system can run in English, and the included apps have English translations as well. After enabling root access through a terminal as described above, run the su command to log in as root, then run the following command to change the language (thanks [davidiwharper on OSNews](http://www.osnews.com/permalink?602834)):
 
 ```sh
 sed -i 's/ko_KP/en_US/g' /etc/sysconfig/i18n /usr/share/config/kdeglobals
 ```
+
 Reboot the system (through the menus or by running the reboot command) to apply the changes. These steps are reported to work on Red Star 2.5 Server as well, with the difference that su is not required since you’re already logged in as root.
 
 ![image5!](images/image5.png)
 
 ### Internet connectivity
+
 For some reason, Red Star’s iptables firewall is set to only allow outgoing connections to certain ports. DNS is blocked as North Korea’s intranet uses IP addresses only, so you can’t get a proper internet connection on Red Star by default. To fix that, run the following commands as root to clear Red Star’s default firewall rules:
 
 ```sh
@@ -71,9 +78,11 @@ Despite the browser being configured to browse on the North Korean intranet, it 
 ![image7!](images/image7.png)
 
 ### Dubious components
+
 As highlighted on the [32C3 follow-up talk](https://media.ccc.de/v/32c3-7174-lifting_the_fog_on_red_star_os), Red Star contains several shady components, including but not limited to a file watermarking system service and a supposed “virus scanner”. The speakers [provided instructions](https://github.com/takeshixx/redstar-tools/blob/master/README.md) on how to disable these components.
 
 ### Other notes
+
 * This version of Red Star was released no sooner than June 2013, according to file dates.
 * There appears to be a system file modification detector, which warns about modified system files when you log in. It might warn you about the kernel and initramfs images in some configurations. To disable it, run this command as root to remove its autorun entry:
 
@@ -90,10 +99,13 @@ rm /usr/share/autostart/intcheck_kde.desktop
 * English or South Korean locales were replaced to accommodate the new North Korean locales throughout the system.
 * The English translation is surprisingly good. One theory is that all English text was taken straight out of OS X.
 * The “Crosswin” Windows compatibility layer is a wrapper around Wine 1.2.2.
+
 ## Part 2
+
 Five years ago, I wrote [a post on Red Star OS 3.0](https://richardg867.wordpress.com/2015/01/01/notes-on-red-star-os-3-0/), the latest version of North Korea’s home-grown Linux distribution to make its way outside of the country’s walled garden. That post was one of the internet’s first guides on exploring this peculiar distro, so it gathered way more attention than I would ever expect. I’m now back with additional, more specific notes on Red Star’s built-in applications.
 
 ### Installing from Windows
+
 It turns out there is more to the `install.exe` Windows executable located in the installation disc. According to a comment in the previous post – as well as Google Translate – the error message displayed by that executable tells you to copy the installation files to your hard drive. Once I copied the DVD’s file structure to the Documents folder and ran `install.exe` from there, the error message changed to a confirmation request, which apparently asks if I want to reboot to continue.
 
 ![image20!](images/image20.png)
@@ -127,6 +139,7 @@ As with other Linux distributions, the installer adds a second boot menu entry w
 ![image26!](images/image26.png)
 
 ### Sogwang Office
+
 The Sogwang Office suite is a fork of OpenOffice.org 3.0 with a North Korean language pack. The option to change the interface language was removed, but the English language pack is still present. Run the following commands as root to remove part of the Korean language pack, forcing all suite applications to load English text instead:
 
 ```sh
@@ -139,6 +152,7 @@ It might be possible to change the language by editing configuration files, howe
 ![image27!](images/image27.png)
 
 ### Crosswin
+
 The Crosswin compatibility layer is a wrapper around Wine 1.2.2, consisting of a helper application and some Korean-only documentation. It’s an optional component which can be selected on the installer’s Customize window, though it appears you can install optional components after the fact by opening the Software Manager application, selecting the only entry on the list, clicking Modify and selecting the components to install (double-click expands the categories).
 
 Once installed, Crosswin can be reached through the Applications > AppLink > [Korean text] 3.0 menu. The “Install” application provides a few presets for installing common software – apparently just Photoshop, which the North Koreans would have totally legitimate copies of – as well as an Add/Remove Programs interface, a shortcut to `winecfg` and a font installer.
@@ -154,9 +168,10 @@ Crosswin can also be invoked by opening .exe files from the file manager. The sc
 ![image210!](images/image210.png)
 
 ### APM
+
 The LAMP stack, oddly named APM – which definitely stands for Apache, PHP, MySQL – is yet another optional component. When installed, it adds a little menu bar gadget allowing you to control the stack’s services. The menu is produced by the APM Manager application, one of the system’s numerous fully custom applications which were never translated to English.
 
-The stack provides a Webmin management interface on http://localhost:10000 – selecting the last option on the aforementioned menu will open that URL on Naenara Browser. Run the following commands as root to change Webmin’s language to English:
+The stack provides a Webmin management interface on <http://localhost:10000> – selecting the last option on the aforementioned menu will open that URL on Naenara Browser. Run the following commands as root to change Webmin’s language to English:
 
 ```sh
 sed -i 's/ko_KP.UTF-8/en/g' /etc/sat/config /usr/share/sat/web-lib.pl
@@ -172,6 +187,7 @@ The Webmin install (located on `/usr/share/sat`) is pretty barebones, containing
 ![image212!](images/image212.png)
 
 ### /Applications
+
 Red Star mimics the OS X .app bundle format for its applications. The executables themselves are inside `Contents/RedStar`, and the name, icon and executable path are determined by `Contents/info.desktop`, a standard KDE `.desktop` file. Some apps like Sogwang Office and GIMP are contained entirely within the bundle. They didn’t go very far with mimicking the OS X filesystem structure, though; `/System/Library` is a symlink to `/usr/share` and that’s about it.
 
 Here are all the other applications I haven’t covered:
@@ -206,4 +222,5 @@ In the AppLink Development folder:
 * **SamTaeSong 3.0 IDE** is KDevelop, including KDevelop Assistant (STS Assistant) and KDevDesigner (STS Designer).
 
 ### Further developments
+
 Red Star 4.0 Server was [released](https://kcnawatch.org/wp-content/uploads/sites/5/2019/01/Pyongyang-Times-2019-01-12.pdf) (page 6) around January 2019, reportedly featuring UEFI support and improved server management tools. It has not leaked yet as of writing.
