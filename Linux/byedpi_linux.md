@@ -33,7 +33,7 @@ Enable SOCKS5 proxy:
 
 KDE NetworkManager:
 
-![image1](images/KDE.png)
+<img align="left" src="images/KDE.png">
 
 nmcli:
 
