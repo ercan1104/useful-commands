@@ -44,6 +44,8 @@
 
 ## Programs
 
+[convert_to_whatsapp_video](Programs/convert_to_whatsapp_video.sh) \- [convert video to Whatsapp format](https://itsfoss.gitlab.io/post/convert-videos-to-whatsapp-video-format-with-ffmpeg/#crafting-the-ideal-ffmpeg-command-for-whatsapp)
+
 [create_image](Programs/create_image.sh) \- [create dynamic disk image In `qemu-img`](https://askubuntu.com/a/1298309)
 
 [custom_resolution_vbox](Programs/custom_resolution_vbox.sh) \- [set resolution to 1080p if you have installed VirtualBox Guest Additions](https://superuser.com/a/120111)
