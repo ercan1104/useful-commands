@@ -5,24 +5,24 @@
 3. Go to Security tab
 4. Click `Advanced` button.
 
-![image1!](images/image1.png)
+![](images/image1.png)
 
 5. Click to `Change` where it says Owner:
 
-<img align="left" src="images/image2.png">
+![](images/image2.png)
 
 6. Enter the object name to select: "your username"
 
-<img align="left" src="images/image3.png">
+![](images/image3.png)
 
 7. Click OK and OK
-8. Click `Edit` button
+2. Click `Edit` button
 
-<img align="left" src="images/image4.png">
+![](images/image4.png)
 
-9. Check the box "Full control"
+8. Check the box "Full control"
 
-<img align="left" src="images/image5.png">
+![](images/image5.png)
 
-10. Click OK, yes and OK
-11. Rename this file
+9. Click OK, yes and OK
+10. Rename this file
