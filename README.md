@@ -44,6 +44,8 @@
 
 ## Programs
 
+[compress_multiple_pdfs](Programs/compress_multiple_pdfs.sh) \- compress multiple PDF files
+
 [convert_to_whatsapp_video](Programs/convert_to_whatsapp_video.sh) \- [convert video to Whatsapp format](https://itsfoss.gitlab.io/post/convert-videos-to-whatsapp-video-format-with-ffmpeg/#crafting-the-ideal-ffmpeg-command-for-whatsapp)
 
 [create_image](Programs/create_image.sh) \- [create dynamic disk image In `qemu-img`](https://askubuntu.com/a/1298309)
