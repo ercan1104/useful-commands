@@ -18,7 +18,7 @@
 
 [libgmp.so.3](Linux/libgmp.so.3.sh) \- [removing error related with `/var/lib/libgmp.so.3`](https://askubuntu.com/a/1460874)
 
-[ltrans_build_error] \- [fixing error on building programs with LTO](https://github.com/freebasic/fbc/issues/354#issuecomment-1020324928)
+[ltrans_build_error](Linux/ltrans_build_error.md) \- [fixing error on building programs with LTO](https://github.com/freebasic/fbc/issues/354#issuecomment-1020324928)
 
 [minimal_linux_build](Linux/minimal_linux_build.md) \- [creating minimal floppy linux image (format img)](https://www.insentricity.com/a.cl/283)
 
