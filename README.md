@@ -22,6 +22,8 @@
 
 [minimal_linux_build](Linux/minimal_linux_build.md) \- [creating minimal floppy linux image (format img)](https://www.insentricity.com/a.cl/283)
 
+[open_url_file](Linux/open_url_file.md) \- open website from .url file
+
 [pacman](Linux/pacman.md) \- [disable signature checking in Arch Linux 32](https://wiki.archlinux.org/title/Pacman/Package_signing#Disabling_signature_checking)
 
 [path](Linux/path.sh) \- [set variable PATH](https://opensource.com/article/17/6/set-path-linux)
