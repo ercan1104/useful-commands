@@ -10,7 +10,7 @@ print('with coords:', sum(c.get('latitude') is not None and c.get('longitude') i
 print('first:', [(c['name'], c['latitude'], c['longitude']) for c in cities[:3]])
 
 from xml.sax.saxutils import escape
-out=Path('***REMOVED***.gpx')
+out=Path('./output.gpx')
 lines=['<?xml version="1.0" encoding="UTF-8"?>','<gpx version="1.1" creator="Copilot" xmlns="http://www.topografix.com/GPX/1/1">','  <metadata>','    <name>Asia cities - CityQuiz share 2388991</name>',f'    <desc>{len(cities)} cities</desc>','  </metadata>']
 for c in cities:
     lat=c.get('latitude'); lon=c.get('longitude')
@@ -27,9 +27,9 @@ print('wrote:', out)
 PY
 python3 - <<'PY'
 from xml.etree import ElementTree as ET
-p='***REMOVED***.gpx'
+p='./output.gpx'
 root=ET.parse(p).getroot()
 ns='{http://www.topografix.com/GPX/1/1}'
 print('GPX waypoints:', len(root.findall(ns+'wpt')))
 PY
-ls -lh ***REMOVED***.gpx
+ls -lh ./output.gpx
